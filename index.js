@@ -15,5 +15,5 @@ let imgArray = [
 var interval = setInterval(() => {
 	let random = Math.floor(Math.random() * 9);
 	image.src = './img/' + imgArray[random];
-}, 2000);
+}, 5000);
 
